@@ -1,0 +1,34 @@
+﻿生成启动时间为 2017/7/23 18:37:20。
+     1>项目“C:\Users\Lerlove\Desktop\SearchGraph\SearchGraph\SearchGraph\SearchGraph.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\visual studio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SearchGraph.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SearchGraph.cpp globalf.cpp
+         SearchGraph.cpp
+     1>c:\users\lerlove\desktop\searchgraph\searchgraph\searchgraph\graph.h(95): warning C4101: “retval”: 未引用的局部变量
+                 c:\users\lerlove\desktop\searchgraph\searchgraph\searchgraph\graph.h(94): 编译类 模板 成员函数“int Graph<Point>::ins_edge(T *,T *,double)”时
+                 with
+                 [
+                     T=Point
+                 ]
+                 c:\users\lerlove\desktop\searchgraph\searchgraph\searchgraph\searchgraph.cpp(143): 参见对正在编译的函数 模板 实例化“int Graph<Point>::ins_edge(T *,T *,double)”的引用
+                 with
+                 [
+                     T=Point
+                 ]
+                 c:\users\lerlove\desktop\searchgraph\searchgraph\searchgraph\searchgraph.cpp(131): 参见对正在编译的类 模板 实例化“Graph<Point>”的引用
+         正在生成代码...
+         正在编译...
+         globalf.cpp
+         正在生成代码...
+       Link:
+         D:\Program Files\visual studio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lerlove\Desktop\SearchGraph\SearchGraph\Debug\SearchGraph.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lerlove\Desktop\SearchGraph\SearchGraph\Debug\SearchGraph.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lerlove\Desktop\SearchGraph\SearchGraph\Debug\SearchGraph.lib" /MACHINE:X86 Debug\SearchGraph.res
+         Debug\globalf.obj
+         Debug\MyView.obj
+         Debug\POINT.obj
+         Debug\SearchGraph.obj
+         Debug\stdafx.obj
+         SearchGraph.vcxproj -> C:\Users\Lerlove\Desktop\SearchGraph\SearchGraph\Debug\SearchGraph.exe
+     1>已完成生成项目“C:\Users\Lerlove\Desktop\SearchGraph\SearchGraph\SearchGraph\SearchGraph.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.33
